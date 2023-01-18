@@ -1,6 +1,8 @@
-package espacoFisico;
-
 import administracaoPessoas.*;
+import espacoFisico.Atendimento;
+import espacoFisico.Cirurgia;
+import espacoFisico.Espera;
+import espacoFisico.Fila;
 
 import java.util.ArrayList;
 import java.util.Arrays;
