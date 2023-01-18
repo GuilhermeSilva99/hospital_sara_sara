@@ -67,5 +67,10 @@ public class Hospital {
         filaDePacientes.colocarNaFila(igor);
         joao.iniciarAtendimento();
         System.out.println(geovanio.realizarDiagnostico(igor.sintomas()));
+
+        sala01.reservar(01,02,2023);
+        sala02.reservar(02,02,2023);
+        sala03.reservar(03,03,2023);
+        salaInicio.reservar(05,05,2023);
     }
 }
